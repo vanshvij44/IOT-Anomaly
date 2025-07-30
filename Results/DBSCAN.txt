@@ -1,0 +1,1 @@
+It was good at finding attacks that formed tight clusters of activity but struggled when the malicious traffic was more scattered and didn't form a dense group of its own.
