@@ -5,7 +5,7 @@ from sklearn.metrics import classification_report
 data = pd.read_csv('data/iot23_combined_preprocessed.csv')
 
 # Select features for IsolationForest (e.g., numeric features)
-X = data.drop('label', axis=1)  
+X = data.drop(['label' , 'encoded_label'], axis=1)  
 
 iso_forest = IsolationForest(contamination=0.1, random_state=42)
 data['iso_forest_labels'] = iso_forest.fit_predict(X)

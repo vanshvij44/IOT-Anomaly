@@ -5,7 +5,7 @@ from sklearn.metrics import classification_report
 data = pd.read_csv('data/iot23_combined_preprocessed.csv')
 
 # Select features for LOF (e.g., numeric features)
-X = data.drop('label', axis=1)  
+X = data.drop(['label' , 'encoded_label'], axis=1) 
 
 
 # 2. Get the predictions
