@@ -1,2 +1,1 @@
 This model performed well but had a higher rate of false positives than the Isolation Forest. It was good at finding anomalies that were outliers in their specific "local" context but was sometimes too sensitive.
-
