@@ -29,7 +29,7 @@ The IoT-23 dataset was used for this study, which consists of network traffic fr
    - **Local Outlier Factor (LOF)**: Applied with `n_neighbors=20` and a contamination rate of 0.1 to detect local anomalies in the data.
 
 3. **Evaluation Metrics**
-   - Each algorithm was evaluated using standard metrics: confusion matrix, precision, recall, and F1-score. These metrics helped determine the model's ability to distinguish between normal and anomalous traffic.
+   - Each algorithm was evaluated using standard metrics: confusion matrix . These metrics helped determine the model's ability to distinguish between normal and anomalous traffic.
 
 #### **Conclusion**
 Based on the evaluation results, the following observations were made:
